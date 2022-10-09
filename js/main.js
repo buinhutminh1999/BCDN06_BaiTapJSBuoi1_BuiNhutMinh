@@ -5,9 +5,9 @@
  * Output: salary
  */
 
-var oneSalary = 100.000;
+var oneSalary = 100000;
 var numDay = 3;
-var salary = oneSalary * numDay 
+var salary = Number(oneSalary) * Number(numDay); 
 console.log('Lương nhân viên: ',salary);
 
 
@@ -22,7 +22,7 @@ var soThuc2 = 10;
 var soThuc3 = 15;
 var soThuc4 = 20;
 var sothuc5 = 25;
-var giatriTb = ( soThuc1 + soThuc2 + soThuc3 + soThuc4 + sothuc5 ) / 5;
+var giatriTb = ( Number(soThuc1) + Number(soThuc2) + Number(soThuc3) + Number(soThuc4) + Number(sothuc5) ) / 5;
 console.log('Gía trị trung bình là: ',giatriTb)
 
 /**
@@ -32,9 +32,9 @@ console.log('Gía trị trung bình là: ',giatriTb)
  * Output: số tiền sau khi quy đổi
  */
 
-var usd = 23.500;
+var usd = 23500;
 var vnd = 2;
-var usdtovnd = vnd * usd;
+var usdtovnd = Number(vnd) * Number(usd);
 console.log('Số tiền sau khi quy đổi là: ', usdtovnd);
 
 /**
@@ -47,7 +47,7 @@ console.log('Số tiền sau khi quy đổi là: ', usdtovnd);
 var chieuDai = 3;
 var chieuRong = 4;
 var dienTich = chieuDai * chieuRong;
-var chuVi = (chieuDai + chieuRong) * 2;
+var chuVi = (Number(chieuDai) + Number(chieuRong)) * 2;
 console.log('Diện tích hình chữ nhật là: ', dienTich)
 console.log('Chu vi hình chữ nhật là: ', chuVi)
 
