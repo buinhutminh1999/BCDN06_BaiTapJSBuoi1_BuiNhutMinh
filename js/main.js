@@ -8,7 +8,7 @@
  *  B3: Thông báo kết quả console.log()
  * Khối 3: Tổng lương nhân viên
  * oneSalery * numDay
- * Output: salary
+ * Khối 3: salary
  */
 
 var oneSalary = 100000;
